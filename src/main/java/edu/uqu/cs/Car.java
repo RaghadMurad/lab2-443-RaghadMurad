@@ -4,11 +4,6 @@ package edu.uqu.cs;
  * CS 1312
  */
 
-/*
-* Make sure to complete and submit your lab
-*/
-import java.util.Scanner;
-
 public class Car{
 
     /************ Part 1 **************/
@@ -22,6 +17,8 @@ public class Car{
      *
      */
 
+private String model;
+private boolean inOutGarage;
     /************ Part 2 **************/
     /**
      * Define a default constructor and set 
@@ -33,7 +30,10 @@ public class Car{
      *      //body
      * }
      */
-
+public Car() {
+        this.model = "";
+        this.inOutGarage = false;
+    }
     /************ Part 3 **************/
     /**
      * Define all getter methods below
@@ -44,6 +44,15 @@ public class Car{
      * }
      */
 
+public String getModel() {
+        return this.model;
+    }
+
+   
+
+    public boolean getinOutGarage() {
+        return this.inOutGarage;
+    }
 
     /************ Part 4 **************/
     /**
@@ -54,7 +63,13 @@ public class Car{
      * }
      *
      */
-
+public void setModel(String model) {
+        this.model = model;
+    }
+ public void setinOutGarage(boolean inOutGarage) {
+    
+        this.inOutGarage=inOutGarage;
+    }
 
     /************ Part 5 **************/
     /**
@@ -63,7 +78,15 @@ public class Car{
      * moveCarIn() to set the inOutGarage flag to true;
      *
      */
+    public void moveCarIn() {
+        this.inOutGarage = true;
+    }
+
+    public void moveCarOut() {
+        this.inOutGarage= false;
+    }
 
 
 
 }
+
