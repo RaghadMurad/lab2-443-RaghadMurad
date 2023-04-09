@@ -4,11 +4,6 @@ package edu.uqu.cs;
  * CS 1312
  */
 
-/*
-* Make sure to complete and submit your lab
-*/
-import java.util.Scanner;
-
 public class Car{
 
     /************ Part 1 **************/
@@ -93,5 +88,7 @@ public void setModel(String model) {
 
 
 
+
+    
 }
 

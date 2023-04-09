@@ -7,7 +7,7 @@ package edu.uqu.cs;
 /*
 * Make sure to complete and submit your lab
 */
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Home{
 	public static void main(String [] args){
@@ -29,8 +29,7 @@ Garage Garage1 = new Garage();
 //() of class Garage
                 //HERE
   Garage1.addCar("Ford Fusion");
- 	        // List all the cars in the garage once again. Hint: use method listCars () of class Garage
-//method listCars () of class Garage
+ 	        // List all the cars in the garage once again. Hint: use method listCars () of class Garage/method listCars () of class Garage
                 //HERE
   System.out.println("All cars in the garage are:");
         Garage1.listCars();
@@ -47,5 +46,7 @@ Garage Garage1 = new Garage();
         Garage1.listCars();
         }
 
+
+        
         
 }

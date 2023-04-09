@@ -7,7 +7,7 @@ package edu.uqu.cs;
 /*
 * Make sure to complete and submit your lab
 */
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Garage{
 
@@ -155,5 +155,7 @@ public void listCars() {
    }
 
 
+
+   
 }
 
