@@ -4,11 +4,11 @@ package edu.uqu.cs;
  * CS 1312
  */
 
-public class Car{
+public class Car {
 
     /************ Part 1 **************/
     /**
-     * Decalre all instance variables 
+     * Decalre all instance variables
      * model of type String
      * inOutGarage of type boolean
      * Make sure they are all private
@@ -17,38 +17,38 @@ public class Car{
      *
      */
 
-private String model;
-private boolean inOutGarage;
+    private String model;
+    private boolean inOutGarage;
+
     /************ Part 2 **************/
     /**
-     * Define a default constructor and set 
+     * Define a default constructor and set
      * all instance variables to their default values
      * model ="";
      * inOutGarage =false;
      * Syntax:
      * public className (){
-     *      //body
+     * //body
      * }
      */
-public Car() {
+    public Car() {
         this.model = "";
         this.inOutGarage = false;
     }
+
     /************ Part 3 **************/
     /**
      * Define all getter methods below
      * for each instance variable
      * Syntax:
      * public dataType getInstanceVariableName (){
-     *      return this.InstanceVariableName;
+     * return this.InstanceVariableName;
      * }
      */
 
-public String getModel() {
+    public String getModel() {
         return this.model;
     }
-
-   
 
     public boolean getinOutGarage() {
         return this.inOutGarage;
@@ -59,16 +59,17 @@ public String getModel() {
      * Define all setter methods below
      * for each instance variable
      * public void setInstanceVariableName (parameter){
-     *      this.InstanceVariableName= parameter;
+     * this.InstanceVariableName= parameter;
      * }
      *
      */
-public void setModel(String model) {
+    public void setModel(String model) {
         this.model = model;
     }
- public void setinOutGarage(boolean inOutGarage) {
-    
-        this.inOutGarage=inOutGarage;
+
+    public void setinOutGarage(boolean inOutGarage) {
+
+        this.inOutGarage = inOutGarage;
     }
 
     /************ Part 5 **************/
@@ -83,12 +84,7 @@ public void setModel(String model) {
     }
 
     public void moveCarOut() {
-        this.inOutGarage= false;
+        this.inOutGarage = false;
     }
 
-
-
-
-    
 }
-
