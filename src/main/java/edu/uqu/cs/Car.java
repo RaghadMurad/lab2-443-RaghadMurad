@@ -2,6 +2,7 @@ package edu.uqu.cs;
 /*
  * Lab 2 
  * CS 1312
+ * 
  */
 
 public class Car {
